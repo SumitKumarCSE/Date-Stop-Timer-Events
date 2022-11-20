@@ -1,0 +1,38 @@
+h1{
+text-align: center;
+text-decoration: underline;
+}
+p{
+font-size: 20px;
+}
+.outer{
+background-color: yellow;
+padding: 10px 50px 50px 50px;
+border: 3px solid black;
+text-align: center;
+margin-bottom: 10px;
+}
+.inner{
+background-color: lightblue;
+padding: 50px 10px 10px 10px;
+border: 3px solid black;
+}
+.last{
+padding-top:20px;
+}
+table, tr, td{
+font-size:20px;
+text-align: center;
+}
+td{
+width:40vw;
+}
+input{
+text-align: center;
+}
+#showdate{
+width: 30%;
+}
+.btn{
+text-align:center;
+}

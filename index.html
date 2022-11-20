@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>Timer Events</TITLE>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+</HEAD>
+<BODY>
+<h1>TIMER EVENTS</h1>
+<div class="outer">
+<p>SHOWING TIME</p>
+<div class="inner">
+<input type="text" id="showdate"></input>
+<table>
+<tr>
+<td>Hour</td>
+<td>Minutes</td>
+<td>Seconds</td>
+<td>Milliseconds</td>
+</tr>
+<tr>
+<td><input type="number" value=0 id="hours"></input></td>
+<td><input type="number" value=0 id="minutes"></input></td>
+<td><input type="number" value=0 id="seconds"></input></td>
+<td><input type="number" value=0 id="milliseconds"></input></td>
+</tr>
+<tr>
+<td>Day</td>
+<td>Date</td>
+<td>Month</td>
+<td>Year</td>
+</tr>
+<tr>
+<td><input type="number" value=0 id="weekday"></input></td>
+<td><input type="number" value=0 id="date"></input></td>
+<td><input type="number" value=0 id="month"></input></td>
+<td><input type="number" value=0 id="year"></input></td>
+</tr>
+</table>
+<div class="last">
+<button onclick="show()">SHOW</button>
+</div>
+</div>
+</div>
+
+<div class="outer">
+<p>TIMER</p>
+<div class="inner">
+<table>
+<tr>
+<td>Hour</td>
+<td>Minutes</td>
+<td>Seconds</td>
+<td>Milliseconds</td>
+</tr>
+<tr>
+<td><input type="number" value=0 id="hrs"></input></td>
+<td><input type="number" value=0 id="mins"></input></td>
+<td><input type="number" value=0 id="secs"></input></td>
+<td><input type="number" value=0 id="millis"></input></td>
+</tr>
+</table>
+<div class="btn">
+<button id="start-btn" onclick="start()">START</button>
+<button id="stop-btn" onclick="stop()">STOP</button>
+<button onclick="reset()">RESET</button>
+</div>
+</div>
+</div>
+</BODY>
+</HTML>
